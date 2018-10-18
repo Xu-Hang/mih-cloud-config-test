@@ -2,7 +2,7 @@ spring:
   datasource:
     reporting:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://10.104.169.175:3306/REPORTING?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+      url: jdbc:mysql://10.104.169.175:3306/REPORTING?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
       username: "{cipher}AQBioJNUaTX8Ms41D6fw6EZFgnQIBqblOpFC3/29Cwg+AmaNywB7q36ywK62iAHLzPoPwshW5pfY9kHptMNUxIbotKtIDLwjQCLAIuTwmcyz0uTU2Wt/9l002oxGZ8u6zurbIXgYZ6uQ8GkQT88NV+QuLCAp0H1SD2zQXUQhXoinzhaeikXi6FTnLsOig/TakzgSfsbFXpl1QBfd9mgzgnubr6YnA4R4s4406A3Y/kf7LtJ0uoXxFODr/lddrTyl8Y/qs5YOM/BaNJhXv6vbNVOV3h0VBaA14Sp5lBXaFm0XdO7KirjyNc7Xqed0GnYxJv4MRAuvBB7cUGrF3rtL8Dj1k4/m2IOBaly0jew3shzWJTRN2rLD8LJFDpzbcBCFe3s="
       password: "{cipher}AQCNdkmOhP47yZHlZAWwO1SAYZkdp12Og179l6FAhApc7TWntStTtaRj31x8OnQ8Ewh4miybPnlpflvy99ZMsDjuau/x8JReT/67ue4GWTNN09l+oOzVsL3h5O6rOxf+kNzMeQTc8BhO/hkn7r1IqM42/tfDVdVU3kUZOvHWCVP0dlizjGi1qa7Jois0AyAbT5CjTnlNSFeVZ1Qaqn+WIeqCCLYz3Ffx21TXsMBMUnX0nRvfAHX5QcFHTa94LzVnzbFI7xKfLnNwE2Qg+tsioiy9NG1pJB6+qus1aKW4xFYcxrXzgWeI4ZrB8WG7Oqmy1C51mq53ObqpHlln+/kwhSx1g7OjKh+y04byQkR447mtzIb4q0Y46mSpz+ZUCCD1hXk="
       hikari:
@@ -10,7 +10,7 @@ spring:
         maximumPoolSize: 100 #连接池中允许的最大连接数。缺省值：10
     logging: 
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://10.66.121.198:3306/LOG?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+      url: jdbc:mysql://10.66.121.198:3306/LOG?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
       username: "{cipher}AQBioJNUaTX8Ms41D6fw6EZFgnQIBqblOpFC3/29Cwg+AmaNywB7q36ywK62iAHLzPoPwshW5pfY9kHptMNUxIbotKtIDLwjQCLAIuTwmcyz0uTU2Wt/9l002oxGZ8u6zurbIXgYZ6uQ8GkQT88NV+QuLCAp0H1SD2zQXUQhXoinzhaeikXi6FTnLsOig/TakzgSfsbFXpl1QBfd9mgzgnubr6YnA4R4s4406A3Y/kf7LtJ0uoXxFODr/lddrTyl8Y/qs5YOM/BaNJhXv6vbNVOV3h0VBaA14Sp5lBXaFm0XdO7KirjyNc7Xqed0GnYxJv4MRAuvBB7cUGrF3rtL8Dj1k4/m2IOBaly0jew3shzWJTRN2rLD8LJFDpzbcBCFe3s="
       password: "{cipher}AQCNdkmOhP47yZHlZAWwO1SAYZkdp12Og179l6FAhApc7TWntStTtaRj31x8OnQ8Ewh4miybPnlpflvy99ZMsDjuau/x8JReT/67ue4GWTNN09l+oOzVsL3h5O6rOxf+kNzMeQTc8BhO/hkn7r1IqM42/tfDVdVU3kUZOvHWCVP0dlizjGi1qa7Jois0AyAbT5CjTnlNSFeVZ1Qaqn+WIeqCCLYz3Ffx21TXsMBMUnX0nRvfAHX5QcFHTa94LzVnzbFI7xKfLnNwE2Qg+tsioiy9NG1pJB6+qus1aKW4xFYcxrXzgWeI4ZrB8WG7Oqmy1C51mq53ObqpHlln+/kwhSx1g7OjKh+y04byQkR447mtzIb4q0Y46mSpz+ZUCCD1hXk="
       hikari:
