@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    reporting:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://10.104.169.175:3306/REPORTING?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+      username: "{cipher}AQAVJw+iwzOwobpYSRvRSJ4U8vu8lOlftk8uAvym6IYFq4rRYCanhj33pTS0CJsxXu21gAApqVCkwPM0Nf75aswqqDXoUQeDHjoZRd5CRSe367VEZw6b9KGR5xstU2iWHtebh4Ri1xtV6UVp7G4vpjZNp1id0a2QL3f+GevAYVQGA6JbUTgd6/N9xKwRbUtpujA4goi1u35Uq7UNOw6yvZMPbpl9RnQibLshSWexZ8Sg3/MLUicirE7O2/Nb7ju7A4vYU+0V6S64A4Dkmeue/68aNnsIlkOoQa4GWD06EYSVRE6VWTOvT+AGoHDlJC23DJ3SwezHJkHijVyayVSCPHfHD5Emv9I9iquwjJ6dsd1ah4NKl2/n9sM4Mdhra9cOt0I="
+      password: "{cipher}AQBpdQy610JhpDtlZqM+hs00YkfQHcqHj8+n1Duk4X2yC7OBb0zzR2MzWa2ZKH7DrkT3j6dsdRc/uRG/2nUYEQ6a5ExcTGTMtEKacGBvFfnlO2IbZWGYANU9hdIOXXoWR/oLAziFSobqKlhRq/Q+aNrdmxvE4F1FjvV6Be4BanuRTiUv9uXNlGoTA7iC/pM/SrpCvCu5ANLN7heXIeFi0v9PSZrKcFUpn3WAfT8rsGtOXB0peYIjrjpWwi4rMbMhVYhqDi1Q6bbIuEavpxHgLhXVrgLf8IK/AvgYnJMqZC/gtUQTXc4WXtR+8UxK092DGFBboRC4iDieaBJZyZ51AjG3c+VUKophz/gEp8CwNmZ4DK/Y+HfcJ2cCqUJr54cDdgI="
+      hikari:
+        maxLifetime: 1765000 #一个连接的生命时长（毫秒），超时而且没被使用则被释放（retired），缺省:30分钟
+        maximumPoolSize: 100 #连接池中允许的最大连接数。缺省值：10
+    logging: 
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://10.66.121.198:3306/LOG?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+      username: "{cipher}AQAVJw+iwzOwobpYSRvRSJ4U8vu8lOlftk8uAvym6IYFq4rRYCanhj33pTS0CJsxXu21gAApqVCkwPM0Nf75aswqqDXoUQeDHjoZRd5CRSe367VEZw6b9KGR5xstU2iWHtebh4Ri1xtV6UVp7G4vpjZNp1id0a2QL3f+GevAYVQGA6JbUTgd6/N9xKwRbUtpujA4goi1u35Uq7UNOw6yvZMPbpl9RnQibLshSWexZ8Sg3/MLUicirE7O2/Nb7ju7A4vYU+0V6S64A4Dkmeue/68aNnsIlkOoQa4GWD06EYSVRE6VWTOvT+AGoHDlJC23DJ3SwezHJkHijVyayVSCPHfHD5Emv9I9iquwjJ6dsd1ah4NKl2/n9sM4Mdhra9cOt0I="
+      password: "{cipher}AQBpdQy610JhpDtlZqM+hs00YkfQHcqHj8+n1Duk4X2yC7OBb0zzR2MzWa2ZKH7DrkT3j6dsdRc/uRG/2nUYEQ6a5ExcTGTMtEKacGBvFfnlO2IbZWGYANU9hdIOXXoWR/oLAziFSobqKlhRq/Q+aNrdmxvE4F1FjvV6Be4BanuRTiUv9uXNlGoTA7iC/pM/SrpCvCu5ANLN7heXIeFi0v9PSZrKcFUpn3WAfT8rsGtOXB0peYIjrjpWwi4rMbMhVYhqDi1Q6bbIuEavpxHgLhXVrgLf8IK/AvgYnJMqZC/gtUQTXc4WXtR+8UxK092DGFBboRC4iDieaBJZyZ51AjG3c+VUKophz/gEp8CwNmZ4DK/Y+HfcJ2cCqUJr54cDdgI="
+      hikari:
+        maxLifetime: 1765000 #一个连接的生命时长（毫秒），超时而且没被使用则被释放（retired），缺省:30分钟
+        maximumPoolSize: 100 #连接池中允许的最大连接数。缺省值：10
