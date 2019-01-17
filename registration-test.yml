@@ -21,3 +21,5 @@ spring:
       useGlobalDataSourceStat: true
 logging:
   config: classpath:log4j2-production.yml
+mydoctor:
+  url: https://test3.mhealth100.com/ip-healthmanager-mobile-web/external
