@@ -1,0 +1,21 @@
+spring: 
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.66.121.198:3306/OP?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2b8
+    username: "{cipher}AQCNcB26tYGlE8fptFH/7NNkJYoNpxfUkdqsECR4bsT/LIKV++6AUPta1FEta1MWX2MZix+r/K1HKu3S27t6Wq/JibHoku6xb4wh1EbgKDxlx4QpjLuZOWng3RgrK7Wg8GOHBgLdbW47ASP1a/32DoLs3058YmGTGlmQomDuhprs/JDbSu6FO6/dHKbsQ+ySf7XOoFQ36QI99dYOQihSfw4MWuD9dfhZtyW+zSGn+VX0jB32aLPWVrd7Jk8XxISdpEEH2DtbZB1rVFH2wwu5nmZPy2cGLyrVDc+xlNQPQm/ADGEGHHscJ2RDQuSw1JTmOz4t2N8RzoUwePieIAVjznTgP0OXOofmgFd+9O9t1eo8jw4RV8Ide5LCqFNwbQoyXu4="
+    password: "{cipher}AQAGiDDDTvTfuJiF9T5zs3OU8aOcIz+mpzfwRQsIuG8XopNxELGGPD6LhLnuX+Bq2gcovRw9j/4XoDjKhOCNpwa1kiItwqZfW01WXd8e+F66EXpIcfHpIt/pZZtfED1mcWNPWiXmZmIZQVIypvSa/5thidDepkMAlZTzLoqZXXMVa88o2cdUfMphHLXDVWZA1aFODKfn1AhCCvFMXNCbsgzM0BWb7ma4KQA3ku8ujv5M4OkyZc/h+anwOutnwtZYutZheqeNXIAjIT3p9WM7AIYMF0N8gdHuIsuQNqsj1RZ0tUPukNHYZOGnudpmVF/FnmqjGe6gSG4k55ueamyOvpda2RPxuiMx0bjwwHfkfGpyz0XNGiS+m/wkrMyPk6OLN9o="
+    druid: 
+      initialSize: 10
+      minIdle: 5
+      maxActive: 100
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMills: 300000
+      testOnBorrow: false
+      testWhileIdle: true
+      testOnReutrn: false
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 20
+      filters: stat,wall,log4j
+      useGlobalDataSourceStat: true
